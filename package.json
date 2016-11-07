@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Jmikeydarby/twitter-js/issues"
   },
-  "homepage": "https://github.com/Jmikeydarby/twitter-js#readme"
+  "homepage": "https://github.com/Jmikeydarby/twitter-js#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
