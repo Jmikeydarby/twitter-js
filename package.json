@@ -1,0 +1,19 @@
+{
+  "name": "twitter-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "twitter-js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmikeydarby/twitter-js.git"
+  },
+  "author": "Amy Paschal and Joey Darbyshire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jmikeydarby/twitter-js/issues"
+  },
+  "homepage": "https://github.com/Jmikeydarby/twitter-js#readme"
+}
