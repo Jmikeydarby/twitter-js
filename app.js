@@ -6,14 +6,12 @@ const app = express();
 
 app.listen(3000);
 
-// app.use("/", function(req, res, next){
-// 	morgan(chalk.blue(':method'));
-// 	next();
-// });
 
-app.use(morgan(chalk.blue(':method')));
-app.use(morgan(chalk.red(':url')));
-app.use(morgan(chalk.green(':status')));
+app.use(morgan(chalk.blue(':method') + chalk.red(' :url') + chalk.green(' :status')));
+
+// app.use(morgan(chalk.blue(':method')));
+// app.use(morgan(chalk.red(':url')));
+// app.use(morgan(chalk.green(':status')));
 
 app.use("/special", function(req, res, next){
 	console.log("You have entered the danger zone!!!");
